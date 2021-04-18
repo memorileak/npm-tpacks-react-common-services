@@ -1,6 +1,6 @@
 {
   "name": "@tpacks/react-common-services",
-  "version": "0.0.5",
+  "version": "0.0.0",
   "description": "Implement all common-use services for React component",
   "type": "module",
   "scripts": {
