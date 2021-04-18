@@ -1,15 +1,7 @@
-const {ReactMix} = require('./src/mixers/react-mix.js');
-
-const {MixinWithFilter} = require('./src/mixins/mixin-with-filter.js');
-const {MixinWithPaging} = require('./src/mixins/mixin-with-paging.js');
-const {MixinWithForm} = require('./src/mixins/mixin-with-form.js');
-const {MixinWithTable} = require('./src/mixins/mixin-with-table');
+const {FormService} = require('./src/services/form-service.js');
+const {PagingService} = require('./src/services/paging-service.js');
 
 module.exports = {
-  ReactMix,
-
-  MixinWithFilter,
-  MixinWithPaging,
-  MixinWithForm,
-  MixinWithTable,
+  FormService,
+  PagingService,
 };
